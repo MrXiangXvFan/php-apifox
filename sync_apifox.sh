@@ -9,8 +9,8 @@ if [ ! -f openapi.json ]; then
 fi
 
 echo "正在同步到 Apifox..."
-RESPONSE=$(curl -s -X POST "https://api.apifox.com/api/v1/projects/7987812/import-data" \
-  -H "Authorization: Bearer afxp_42b3e2cEujBARYX3M3cTk6BqwiLLFkwIisoP" \
+RESPONSE=$(curl -s -X POST "https://api.apifox.com/api/v1/projects/todo用你自己的项目id/import-data" \
+  -H "Authorization: Bearer 用你自己的token" \
   -H "Content-Type: application/json" \
   -H "X-Apifox-Version: 2022-11-16" \
   -d "{
