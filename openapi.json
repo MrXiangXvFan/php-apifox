@@ -1,0 +1,80 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "apifox-php API",
+        "description": "A simple PHP API for testing Apifox integration",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/hell11o": {
+            "get": {
+                "tags": [
+                    "General1"
+                ],
+                "summary": "Get Hello Message",
+                "description": "Returns a simple hello message.",
+                "operationId": "b9c05e606f706d017bd659e87bf56e0d",
+                "responses": {
+                    "200": {
+                        "description": "Successful operation",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "status": {
+                                            "type": "string",
+                                            "example": "success"
+                                        },
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Hello from apifox-php API!"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/search": {
+            "get": {
+                "tags": [
+                    "General1"
+                ],
+                "summary": "Get Hello Message",
+                "description": "Returns a simple hello message.",
+                "operationId": "c0fd56e2556823a0162287e57c68fb54",
+                "responses": {
+                    "200": {
+                        "description": "Successful operation",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "status": {
+                                            "type": "string",
+                                            "example": "success"
+                                        },
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Hello from apifox-php API!"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "General1",
+            "description": "General1"
+        }
+    ]
+}

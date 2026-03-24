@@ -1,0 +1,8 @@
+{
+   "scripts": {
+        "sync-apifox": "bash ./sync_apifox.sh"
+    },
+    "require": {
+        "zircote/swagger-php": "^6.0"
+    }
+}
